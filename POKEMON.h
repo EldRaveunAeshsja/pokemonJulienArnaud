@@ -16,9 +16,9 @@ private:
     int             _pvPokemon;
     int             _lvlPokemon;
     int             _attaquePokemon;
-    int             _puissancePokemon; // ATTAQUE SPECIALE = Puissance
+    int             _attaqueSPEPokemon;
     int             _defensePokemon;
-    int             _defenseMagicPokemon; //Defense contre la puissance
+    int             _defenseSPEPokemon;
     // ATTAQUE comme pour Type
     float           _vitessePokemon;
     // OBJET comme pour Type
