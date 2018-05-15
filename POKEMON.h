@@ -8,20 +8,41 @@
 #include <iostream>
 #include <string>
 
+enum class Type {
+    feu,
+    eau,
+    plante,
+    spectre,
+    tenebre,
+    dragon,
+    acier,
+    insecte,
+    electrique,
+    combat,
+    glace,
+    fee,
+    normale,
+    poison,
+    psy,
+    roche,
+    sol,
+    vol,
+};
+
 class POKEMON {
 private:
     std::string     _nomPokemon;
     float           _prixPokemon;
-    //Type Truc spé à faire
+    Type            _type;
     int             _pvPokemon;
     int             _lvlPokemon;
     int             _attaquePokemon;
     int             _attaqueSPEPokemon;
     int             _defensePokemon;
     int             _defenseSPEPokemon;
-    // ATTAQUE comme pour Type
+    // ATTAQUE truc spe à faire
     float           _vitessePokemon;
-    // OBJET comme pour Type
+    // OBJET comme attaque
 
 public:
     //Constructeurs
