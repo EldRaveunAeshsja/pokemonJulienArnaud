@@ -7,29 +7,14 @@
 
 #include <iostream>
 #include <string>
+#include "POUVOIR.h"
+#include "OBJET.h"
 
-enum class Type {
-    feu,
-    eau,
-    plante,
-    spectre,
-    tenebre,
-    dragon,
-    acier,
-    insecte,
-    electrique,
-    combat,
-    glace,
-    fee,
-    normale,
-    poison,
-    psy,
-    roche,
-    sol,
-    vol,
-};
 
-class POKEMON {
+
+
+class POKEMON : public POUVOIR, public OBJET
+{
 private:
     std::string     _nomPokemon;
     float           _prixPokemon;

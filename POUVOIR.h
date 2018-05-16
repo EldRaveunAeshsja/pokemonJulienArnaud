@@ -8,19 +8,30 @@
 #include <iostream>
 #include <string>
 
+enum class Type {
+    feu,
+    eau,
+    roche,
+    sol
+};
+enum class Categorie {
+    speciale,
+    physique
+};
+
 class POUVOIR {
 private:
     std::string     _nomAttaque;
-    //Type Truc spé à faire
+    Type            _type;
     float           _precisionAttaque;
     int             _puissanceAttaque; // degats de base de l'attaque / pouvoir
     int             _PP; //Nombre de fois réutilisable
-
-
-
-
+    Categorie       _categorie;
 public:
-
+    POUVOIR();
+    POUVOIR(std::string nomAttaque, Type type,
+            float precisionAttaque, int puissanceAttaque,
+            int PP, Categorie categorie);
 
 };
 
