@@ -16,6 +16,8 @@ private:
     int         _restaurationPV;
 public:
 
+    OBJET();
+    OBJET(std::string nomObjet,std::string descriptionObjet, int restaurationPV);
 
 
 

@@ -31,8 +31,8 @@ POUVOIR::POUVOIR(std::string nomAttaque,Type type,float precisionAttaque,int pui
 
 POUVOIR aireDeau("Aire d'eau",      Type::eau,  1,      50,     10, Categorie::speciale);
 POUVOIR hydroqueue("Hydroqueue",    Type::eau,  0.9,    190,    10, Categorie::physique);
-POUVOIR coupVictoire("CoupVictoire",Type::feu,  0.95,   300,    3, Categorie::speciale);
-POUVOIR rafaleFeu("RafaleFeu",      Type::feu,  0.90,   210,    5, Categorie::speciale);
+POUVOIR coupVictoire("CoupVictoire",Type::feu,  0.95,   300,    3,  Categorie::speciale);
+POUVOIR rafaleFeu("RafaleFeu",      Type::feu,  0.90,   210,    5,  Categorie::speciale);
 POUVOIR rocBoulet("RocBoulet",      Type::roche,0.6,    150,    10, Categorie::physique);
 POUVOIR bouleRoc("BouleRoc",        Type::roche,0.7,    75,     30, Categorie::physique);
 POUVOIR seisme("Séisme",            Type::sol,  0.4,    250,    10, Categorie::physique);
