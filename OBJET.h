@@ -14,12 +14,12 @@ private:
     std::string _nomObjet;
     std::string _descriptionObjet;
     int         _restaurationPV;
+    //AJOUT PERSO
+    float       _prixObjet;
 public:
 
     OBJET();
-    OBJET(std::string nomObjet,std::string descriptionObjet, int restaurationPV);
-
-
+    OBJET(std::string nomObjet,std::string descriptionObjet, int restaurationPV, float prixPokemon);
 
 };
 
